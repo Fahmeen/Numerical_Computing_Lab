@@ -5,7 +5,7 @@
 
 import numpy
 import numpy as np
-cvalues = [20.1, 20.8, 21.9, 22.5, 22.7, 22.3, 21.8, 21.2, 20.9, 20.1]
+cvalues = [11, 22, 33, 44, 10, 20, 30, 40]
 C = np.array(cvalues)
 print(C)
 print(C * 9 / 5 + 32)
