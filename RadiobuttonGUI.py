@@ -5,7 +5,6 @@
 
 import tkinter as tk
 import random
-    
 win=tk.Tk()
 win.title('Languages')
 # width x height + x_offset + y_offset:
@@ -23,8 +22,6 @@ for i in range(5):
                 fg='White' if brightness < 120 else 'Black', 
                 bg=bg_colour)
    l.place(x = 200, y = 100 + i*30, width=125, height=30)
-   
-
 languages = [
     ("Python",1),
     ("Perl",2),
@@ -35,7 +32,6 @@ languages = [
 
 def ShowChoice():
     print(v.get())
-
 tk.Label(win, 
          text="""Choose your favourite 
 programming language:""",
@@ -49,5 +45,5 @@ for val, language in enumerate(languages):
                   variable=v, 
                   command=ShowChoice,
                   value=val).pack(anchor=tk.W)
-          
+
 win.mainloop()
