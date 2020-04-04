@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Mar 30 13:31:31 2020
 @author: user
 """
 # Python Program to interpolate 
