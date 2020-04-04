@@ -1,1 +1,0 @@
-Interpolation is the method or technique to estimate unknown values from a given set of observation!
